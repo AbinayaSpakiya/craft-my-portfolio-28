@@ -105,17 +105,17 @@ const About = () => {
           </div>
         </div>
 
-        {/* Current Focus */}
+        {/* Recent Work */}
         <Card className="p-8 gradient-hero border border-primary/20 animate-fade-in" style={{ animationDelay: "0.4s" }}>
           <div className="text-center">
-            <h3 className="text-2xl font-semibold mb-4">Currently Working On</h3>
+            <h3 className="text-2xl font-semibold mb-4">Recent Work</h3>
             <p className="text-lg text-muted-foreground mb-6">
-              Developing an Early Prediction of Dyslexia system using Machine Learning and Random Forest algorithms 
-              as part of my research project, while completing my Full Stack Developer internship at MahaData Solutions.
+              Developed an Early Prediction of Dyslexia system using Machine Learning and Random Forest algorithms 
+              as part of my research project, and completed my Full Stack Developer internship at MahaData Solutions.
             </p>
             <div className="flex justify-center gap-3">
-              <Badge className="bg-primary text-primary-foreground">Research in Progress</Badge>
-              <Badge className="bg-accent text-accent-foreground">Internship Active</Badge>
+              <Badge className="bg-primary text-primary-foreground">Research Paper Completed</Badge>
+              <Badge className="bg-accent text-accent-foreground">Internship Completed</Badge>
             </div>
           </div>
         </Card>
